@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<station rawHeight="1200" rawWidth="2200">
+	<nodes>
+		<node id="2000" type="bend">
+			<relativelocation>
+				<x>100</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="2001" type="bend">
+			<relativelocation>
+				<x>550</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="2002" type="bend">
+			<relativelocation>
+				<x>700</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="2003" type="bend">
+			<relativelocation>
+				<x>850</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="b1" type="bend">
+			<relativelocation>
+				<x>650</x>
+				<y>200</y>
+			</relativelocation>
+		</node>
+		<node id="b2" type="bend">
+			<relativelocation>
+				<x>800</x>
+				<y>200</y>
+			</relativelocation>
+		</node>
+		<node id="b3" type="bend">
+			<relativelocation>
+				<x>950</x>
+				<y>200</y>
+			</relativelocation>
+		</node>
+		<node id="adg" type="bend">
+			<relativelocation>
+				<x>1400</x>
+				<y>200</y>
+			</relativelocation>
+		</node>
+		<node id="2005" type="bend">
+			<relativelocation>
+				<x>750</x>
+				<y>500</y>
+			</relativelocation>
+		</node>
+		<node id="2006" type="bend">
+			<relativelocation>
+				<x>900</x>
+				<y>500</y>
+			</relativelocation>
+		</node>
+		<node id="2007" type="bend">
+			<relativelocation>
+				<x>1050</x>
+				<y>500</y>
+			</relativelocation>
+		</node>
+		<node id="2004" type="bend">
+			<relativelocation>
+				<x>1800</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="2012" type="bend">
+			<relativelocation>
+				<x>1800</x>
+				<y>500</y>
+			</relativelocation>
+		</node>
+		<node id="qwe" type="bend">
+			<relativelocation>
+				<x>1500</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="rtz" type="bend">
+			<relativelocation>
+				<x>1300</x>
+				<y>500</y>
+			</relativelocation>
+		</node>
+		<node id="uio" type="bend">
+			<relativelocation>
+				<x>1400</x>
+				<y>400</y>
+			</relativelocation>
+		</node>
+	</nodes>
+	<connections>
+		<connection id="c2007">
+			<from>2000</from>
+			<to>2001</to>
+		</connection>
+		<connection id="c2009">
+			<from>2002</from>
+			<to>2003</to>
+		</connection>
+		<connection id="c2011">
+			<from>2005</from>
+			<to>2006</to>
+		</connection>
+		<connection id="c2012">
+			<from>2006</from>
+			<to>2007</to>
+		</connection>
+		<node id="b4" type="bend">
+			<relativelocation>
+				<x>650</x>
+				<y>400</y>
+			</relativelocation>
+		</node>
+		<node id="b5" type="bend">
+			<relativelocation>
+				<x>800</x>
+				<y>400</y>
+			</relativelocation>
+		</node>
+		<node id="b6" type="bend">
+			<relativelocation>
+				<x>950</x>
+				<y>400</y>
+			</relativelocation>
+		</node>
+		<connection id="AA">
+			<control>
+				<x>650</x>
+				<y>490</y>
+			</control>
+			<from>b4</from>
+			<to>2005</to>
+		</connection>
+		<connection id="BB">
+			<control>
+				<x>800</x>
+				<y>490</y>
+			</control>
+			<from>b5</from>
+			<to>2006</to>
+		</connection>
+		<connection id="CC">
+			<control>
+				<x>950</x>
+				<y>490</y>
+			</control>
+			<from>b6</from>
+			<to>2007</to>
+		</connection>
+		<connection id="A">
+			<from>b1</from>
+			<to>b4</to>
+		</connection>
+		<connection id="B">
+			<from>b2</from>
+			<to>b5</to>
+		</connection>
+		<connection id="C">
+			<from>b3</from>
+			<to>b6</to>
+		</connection>
+		<connection id="PPP">
+			<control>
+				<x>650</x>
+				<y>110</y>
+			</control>
+			<from>2001</from>
+			<to>b1</to>
+		</connection>
+		<connection id="MMM">
+			<control>
+				<x>800</x>
+				<y>110</y>
+			</control>
+			<from>2002</from>
+			<to>b2</to>
+		</connection>
+		<connection id="NNN">
+			<control>
+				<x>950</x>
+				<y>110</y>
+			</control>
+			<from>2003</from>
+			<to>b3</to>
+		</connection>
+		<connection id="777">
+			<control>
+				<x>1400</x>
+				<y>490</y>
+			</control>
+			<from>rtz</from>
+			<to>uio</to>
+		</connection>
+		<connection id="888">
+			<from>uio</from>
+			<to>adg</to>
+		</connection>
+		<connection id="999">
+			<control>
+				<x>1400</x>
+				<y>110</y>
+			</control>
+			<from>adg</from>
+			<to>qwe</to>
+		</connection>
+		<connection id="TTT">
+			<from>2007</from>
+			<to>rtz</to>
+		</connection>
+		<connection id="SSS">
+			<from>2001</from>
+			<to>2002</to>
+		</connection>
+		<connection id="TTTT">
+			<from>qwe</from>
+			<to>2004</to>
+		</connection>
+		<connection id="WWW">
+			<from>rtz</from>
+			<to>2012</to>
+		</connection>
+	</connections>
+</station>

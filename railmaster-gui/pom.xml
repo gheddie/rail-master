@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>railmaster-gui</artifactId>
+	<parent>
+		<groupId>de.sternico.railmaster</groupId>
+		<artifactId>railmaster-build</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../railmaster-build</relativePath>
+	</parent>
+	<dependencies>
+		<dependency>
+			<groupId>de.sternico.railmaster</groupId>
+			<artifactId>railmaster-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>de.sternico.railmaster</groupId>
+			<artifactId>railmaster-entities</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>		
+	</dependencies>
+</project>

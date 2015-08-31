@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<station rawHeight="1200" rawWidth="2200">
+	<nodes>
+		<node id="TA1" type="bend">
+			<relativelocation>
+				<x>100</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="TA2" type="bend">
+			<relativelocation>
+				<x>300</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="TA3" type="bend">
+			<relativelocation>
+				<x>400</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="TA4" type="bend">
+			<relativelocation>
+				<x>500</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="TA5" type="bend">
+			<relativelocation>
+				<x>700</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="TA6" type="bend">
+			<relativelocation>
+				<x>200</x>
+				<y>400</y>
+			</relativelocation>
+		</node>
+		<node id="TA7" type="bend">
+			<relativelocation>
+				<x>300</x>
+				<y>400</y>
+			</relativelocation>
+		</node>
+		<node id="TA8" type="bend">
+			<relativelocation>
+				<x>400</x>
+				<y>400</y>
+			</relativelocation>
+		</node>		
+	</nodes>
+	<connections>
+		<connection id="TA1:TA2">
+			<from>TA1</from>
+			<to>TA2</to>
+		</connection>
+		<connection id="TA2:TA3">
+			<from>TA2</from>
+			<to>TA3</to>
+		</connection>		
+		<connection id="TA3:TA4">
+			<from>TA3</from>
+			<to>TA4</to>
+		</connection>		
+		<connection id="TA4:TA5">
+			<trackRef ref="track3" segment="1" />
+			<from>TA4</from>
+			<to>TA5</to>
+		</connection>		
+		<connection id="TA6:TA2">
+			<from>TA6</from>
+			<to>TA2</to>
+		</connection>		
+		<connection id="TA7:TA3">
+			<from>TA7</from>
+			<to>TA3</to>
+		</connection>		
+		<connection id="TA8:TA4">
+			<trackRef ref="track3" segment="0" />
+			<from>TA8</from>
+			<to>TA4</to>
+		</connection>		
+	</connections>	
+</station>

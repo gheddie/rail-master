@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<station rawHeight="1200" rawWidth="2200">
+	<nodes>
+		<node id="TA1" type="bend">
+			<relativelocation>
+				<x>100</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="TA2" type="bend">
+			<relativelocation>
+				<x>800</x>
+				<y>800</y>
+			</relativelocation>
+		</node>
+	</nodes>
+	<connections>
+		<connection id="TA1:TA2">
+			<from>TA1</from>
+			<to>TA2</to>
+		</connection>
+	</connections>	
+</station>

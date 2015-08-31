@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<station rawHeight="1200" rawWidth="2200">
+	<nodes>
+		<node id="2000" type="bend">
+			<relativelocation>
+				<x>100</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="2001" type="bend">
+			<relativelocation>
+				<x>550</x>
+				<y>100</y>
+			</relativelocation>
+		</node>
+		<node id="2000a" type="bend">
+			<relativelocation>
+				<x>100</x>
+				<y>60</y>
+			</relativelocation>
+		</node>
+		<node id="2001a" type="bend">
+			<relativelocation>
+				<x>550</x>
+				<y>60</y>
+			</relativelocation>
+		</node>
+		<node id="2000b" type="bend">
+			<relativelocation>
+				<x>100</x>
+				<y>20</y>
+			</relativelocation>
+		</node>
+		<node id="2001b" type="bend">
+			<relativelocation>
+				<x>550</x>
+				<y>20</y>
+			</relativelocation>
+		</node>
+		<node id="2002" type="bend">
+			<relativelocation>
+				<x>950</x>
+				<y>300</y>
+			</relativelocation>
+		</node>
+		<node id="2014" type="bend">
+			<relativelocation>
+				<x>1100</x>
+				<y>500</y>
+			</relativelocation>
+		</node>
+	</nodes>
+	<connections>
+		<connection id="777">
+			<trackRef ref="track1" segment="0" />
+			<from>2000</from>
+			<to>2001</to>
+		</connection>
+		<connection id="888">
+			<trackRef ref="track1" segment="1" />
+			<control>
+				<x>750</x>
+				<y>100</y>
+			</control>
+			<from>2001</from>
+			<to>2002</to>
+		</connection>
+		<connection id="999">
+			<trackRef ref="track4" segment="1" />
+			<control>
+				<x>750</x>
+				<y>80</y>
+			</control>
+			<from>2001a</from>
+			<to>2002</to>
+		</connection>
+		<connection id="101010">
+			<trackRef ref="track3" segment="1" />
+			<control>
+				<x>750</x>
+				<y>60</y>
+			</control>
+			<from>2001b</from>
+			<to>2002</to>
+		</connection>
+		<connection id="121212">
+			<trackRef ref="track4" segment="0" />
+			<from>2000a</from>
+			<to>2001a</to>
+		</connection>
+		<connection id="131313">
+			<trackRef ref="track3" segment="0" />
+			<from>2000b</from>
+			<to>2001b</to>
+		</connection>
+		<connection id="141414">
+			<trackRef ref="track3" segment="2" />
+			<from>2002</from>
+			<to>2014</to>
+		</connection>
+	</connections>
+</station>

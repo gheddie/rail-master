@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<station rawHeight="1000" rawWidth="870">
+	<nodes>
+		<node id="2000" type="bend">
+			<relativelocation>
+				<x>20</x>
+				<y>100</y>
+			</relativelocation>
+		</node>	
+		<node id="2004" type="bend">
+			<relativelocation>
+				<x>450</x>
+				<y>100</y>
+			</relativelocation>
+		</node>			
+		<node id="2005" type="bend">
+			<relativelocation>
+				<x>650</x>
+				<y>150</y>
+			</relativelocation>
+		</node>					
+		<node id="2001" type="junction">
+			<relativelocation>
+				<x>200</x>
+				<y>100</y>
+			</relativelocation>
+			<typeDependentData>
+				<typeDependentAttribute key="trackRoot" value="a5" />
+			</typeDependentData>
+		</node>
+		<node id="2002" type="bend">
+			<relativelocation>
+				<x>400</x>
+				<y>200</y>
+			</relativelocation>
+		</node>
+		<node id="2003" type="junction">
+			<relativelocation>
+				<x>600</x>
+				<y>400</y>
+			</relativelocation>
+			<typeDependentData>
+				<typeDependentAttribute key="trackRoot" value="a6" />
+			</typeDependentData>			
+		</node>		
+	</nodes>
+	<connections>
+		<connection id="c2004">
+			<from>2001</from>
+			<to>2002</to>
+			<control>
+				<x>300</x>
+				<y>120</y>
+			</control>
+		</connection>	
+		<connection id="c2005">
+			<from>2002</from>
+			<to>2003</to>
+		</connection>			
+		<connection id="c2006">
+			<from>2000</from>
+			<to>2001</to>
+		</connection>			
+		<connection id="c2007">
+			<from>2001</from>
+			<to>2004</to>
+		</connection>			
+		<connection id="c2008">
+			<from>2004</from>
+			<to>2005</to>
+			<control>
+				<x>580</x>
+				<y>100</y>
+			</control>			
+		</connection>					
+	</connections>
+</station>
